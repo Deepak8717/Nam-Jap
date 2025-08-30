@@ -48,7 +48,7 @@ body {
 .mantra {
   position: absolute;
   left: 50%;
-  bottom: 150px;
+  bottom: 400px;
   transform: translateX(-50%);
   font-size: 38px;
   font-weight: 700;
@@ -65,7 +65,7 @@ body {
     opacity: 1;
   }
   100% {
-    transform: translate(-50%, -40vh);
+    transform: translate(-50%, -20vh);
     opacity: 0;
   }
 }

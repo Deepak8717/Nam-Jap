@@ -10,7 +10,7 @@ const mantras = [
 ];
 
 function getMantra() {
-  const group = Math.floor(counter / 4) % mantras.length; // every 4 clicks change mantra
+  const group = Math.floor(counter / 108) % mantras.length; // every 4 clicks change mantra
   return mantras[group];
 }
 
